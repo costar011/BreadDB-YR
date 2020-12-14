@@ -13,6 +13,10 @@ app.set("view engine", "pug");
 
 app.use(morgan(`dev`));
 
+app.use(express.static(path.join(__dirname, "/assets")));
+
+app.get("/");
+
 app.listen(PORT, () => {
   console.log(`✅  ${PORT} Server Start`);
 });
