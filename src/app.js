@@ -28,7 +28,7 @@ mongoose.connect(
     if (error) {
       console.log("❌ Failed");
     } else {
-      console.log("⭕️  DB  ");
+      console.log("⭕️  DB SUCCEES ");
     }
   }
 );
