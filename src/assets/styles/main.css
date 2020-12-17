@@ -15,12 +15,20 @@ body {
 
 .main .main__top a {
   background: none;
+
   margin: 70px;
   padding: 30px;
+
   text-decoration: none;
-  color: #0984e3;
+  color: #3742fa;
   cursor: pointer;
+  font-weight: 700;
+
   transition: 0.6s;
+}
+
+.main .main__top a:hover {
+  color: #1b9cfc;
 }
 
 .main .main__content {
