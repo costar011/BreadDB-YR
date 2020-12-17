@@ -15,7 +15,12 @@ body {
 
 .main .main__top a {
   background: none;
-  margin: 50px;
+  margin: 70px;
+  padding: 30px;
+  text-decoration: none;
+  color: #0984e3;
+  cursor: pointer;
+  transition: 0.6s;
 }
 
 .main .main__content {
