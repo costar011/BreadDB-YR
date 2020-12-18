@@ -15,8 +15,14 @@ body {
 .home .home__main .home__text .home__txt {
   margin-bottom: 40px;
   margin-left: 5px;
+
+  font-size: 25px;
+  transition: 0.4s;
 }
 
 .home .home__main .home__text .home__txt1 {
   margin-bottom: 40px;
+
+  font-size: 25px;
+  transition: 0.5s;
 }
